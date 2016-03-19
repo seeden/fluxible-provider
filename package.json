@@ -1,6 +1,6 @@
 {
   "name": "fluxible-provider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provide executeAction and getStore to your component",
   "author": {
     "name": "Zlatko Fedor",
