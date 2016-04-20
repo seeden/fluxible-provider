@@ -12,7 +12,6 @@ function createComponent(CurrentComponent) {
   const componentName = CurrentComponent.displayName || CurrentComponent.name;
   Provider.displayName = componentName + 'ExecuteActionProvider';
   Provider.contextTypes = {
-    getStore: PropTypes.func.isRequired,
     executeAction: PropTypes.func.isRequired,
   };
 

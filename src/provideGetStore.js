@@ -13,7 +13,6 @@ function createComponent(CurrentComponent) {
   Provider.displayName = componentName + 'GetStoreProvider';
   Provider.contextTypes = {
     getStore: PropTypes.func.isRequired,
-    executeAction: PropTypes.func.isRequired,
   };
 
   Provider.prototype.render = function render() {
